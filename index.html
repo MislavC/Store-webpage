@@ -1,0 +1,165 @@
+<!-- Project 1 - Hat Shop -->
+<!-- ISTE-340-800 -->
+<!-- Mislav Čuljak -->
+<!DOCTYPE html>
+<html lang="en"
+    class="no-csspositionsticky, no-es6collections, no-arrow, no-es6array, no-es6object, no-es6string, no-eventlistener, no-mediaqueries, no-queryselector"
+    id="browser">
+
+<head>
+
+    <title>Hatshop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <!-- Load the JavaScript file as a module -->
+    <script src="js/app.js" type="module"></script>
+    <script src="js/moderinzr/modernizr-custom.js" type="module"></script>
+</head>
+
+<body><!-- navbar -->
+    <nav class="navbar background">
+        <div class="logo"><!-- logo -->
+            <img src="./media/hatslogo.png" alt="logo">
+        </div>
+        <ul class="nav-list"><!-- navlist -->
+            <li><a href="#About">About</a></li>
+            <li><a href="#Hats">Hats</a></li>
+            <li><a href="#Shop">Shop</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="Main"><!-- Main section -->
+        <div class="firstHalf">
+            <img src="media/background.jpg" alt="background" width="1520"><!-- first background image -->
+            <div class="qoutebox"><!-- text in the middle of the image -->
+                <h1>Hats SHOP</h1>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="About"><!-- About section -->
+
+        <div class="secondHalf">
+
+            <h2 class="text-big" id="web"><!-- About title -->
+                About
+            </h2>
+
+            <p class="text-small"><!-- about text -->
+                Hats shop is an online shop that has all kinds of different hats. The hats available here come from
+                a lot of different cultures.
+                That allows us to give customers products from all around the world. Our hats variety of uses
+                like protection against weather conditions or even fashion. The team behind the brand is a group of
+                international friends
+                that bonded over the love for hats. And that is how this brand was created.
+                We hope our love for hats reaches our customers.
+            </p>
+
+            <div class="aboutus"><!-- ai images -->
+                <figure>
+                    <img src="media/face1.jpg" alt="face" height="250" width="300">
+                    <img src="media/face2.jpg" alt="face" height="250" width="300">
+                    <img src="media/face3.jpg" alt="face" height="250" width="300">
+                    <img src="media/face4.jpg" alt="face" height="250" width="300">
+                    <figcaption>The team</figcaption><!-- figcaption -->
+                </figure>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="Hats"><!-- hats section -->
+        <div class="thirdHalf">
+            <h2 class="text-big" id="program"><!-- products -->
+                Available Products
+            </h2>
+
+            <p class="text-small"><!-- Hats text -->
+                Available Products vary, but our two most used materials are cotton and polyester.
+                These two materials are the most durable and can be used for a very long time. Our most numbered types
+                from these
+                two materials are traveller hats and trucker hats for cotton. And truckers and buckets where polyester
+                is the material.
+                There are also gender-based hats, but that doesn't exactly mean the other gender can't wear the
+                gender-specific hat.
+                After all, hats are more gender neutral than normal clothes. The hats were just divided simply for the
+                catalog.
+                It lowers the number of hats the customer has to go through. And allows you to get to the product you
+                want faster.
+                The images show some of the most popular products in the present time. We assure you, you will not
+                regret choosing our store.
+            </p>
+
+            <div class="products">
+                <figure><!-- images -->
+                    <img src="media/cotton-traveller-female.jpg" alt="product" height="220" width="220">
+                    <img src="media/cotton-trucker-male.jpg" alt="product" height="220" width="220">
+                    <img src="media/polyester-bucket-female.jpg" alt="product" height="220" width="220">
+                    <img src="media/polyester-trucker-undefined.jpg" alt="product" height="220" width="220">
+                    <img src="media/polyester-undefined-undefined.jpg" alt="product" height="220" width="220">
+                    <figcaption>Products in the shop</figcaption><!-- figcaption -->
+                </figure>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="Shop"><!-- Shop -->
+        <div class="paras">
+            <h1 class="sectionTag text-big">Shop</h1>
+
+            <p class="text-small"><!-- Shop text -->
+                Here is where you select the product you want. The three selections are:
+                material, type, and gender. When you make a selection you get the image of the example of the product.
+                When you click the submit button, the site will lead you to another page, where you will see the
+                selections
+                you made. And you will need to fill in your address, email, phone number, and credit card information.
+                After checking
+                all your information is correct, you can submit the information. You can expect your new hat to be sent
+                in the span of a week
+                to a month.
+            </p>
+
+            <form id="form-hat" action="form.html"><!-- form -->
+                <fieldset>
+                    <legend>Hat View</legend>
+                    <div class="container">
+
+                        <!-- div for hat selects -->
+                        <div id="material-selects" class="container-item">
+                        </div>
+                        <!-- div for hat image -->
+                        <div id="div-hat" class="container-item">
+                            <img src="media/undefined-undefined-undefined.jpg" alt="undefined-undefined-undefined"
+                                width="200px" height="200px">
+                        </div>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Submit"><!-- submit button -->
+                <input type="reset" value="Reset"><!-- reset button -->
+            </form>
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+
+
+    </footer>
+</body>
+
+</html>
